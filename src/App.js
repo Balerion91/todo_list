@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <TaskForm add={addTask} />
       <TasksList remove={removeTask} tasks={tasks} title="Список заданий" />
-      Привет привет
     </div>
   );
 }
